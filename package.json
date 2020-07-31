@@ -1,0 +1,19 @@
+{
+  "name": "bitcoin-rates-next-js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build-css": "postcss tailwind.css -o styles/tailwind.css",
+    "start": "next start"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "next": "9.5.0",
+    "postcss-cli": "^7.1.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.6.0"
+  }
+}
