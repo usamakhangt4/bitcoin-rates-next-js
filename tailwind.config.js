@@ -1,11 +1,7 @@
 module.exports = {
-  purge: [],
+  purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
-    extend: {
-      fontFamily: {
-        Arvo: ["Arvo", 'serif'],
-      },
-    },
+    extend: {},
   },
   variants: {},
   plugins: [],
