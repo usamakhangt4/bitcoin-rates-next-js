@@ -26,7 +26,7 @@ export class index extends Component {
     if (condition === 'online') {
       let fetchedData = await fetchData();
       let { EUR, GBP, USD } = fetchedData;
-      // console.log(fetchedData);
+      console.log(fetchedData);
       this.setState({
         eur: {
           ...this.state.eur,
